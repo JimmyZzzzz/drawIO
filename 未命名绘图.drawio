@@ -22,17 +22,65 @@
         <mxCell id="aM9ryv3xv72pqoxQDRHE-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
           <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-7" value="" style="curved=0;endArrow=classic;html=1;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="80" as="sourcePoint" />
+            <mxPoint x="60" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="80" />
+              <mxPoint x="80" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-14" value="" style="curved=0;endArrow=classic;html=1;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="59.89393939393949" y="150" as="sourcePoint" />
+            <mxPoint x="59.89393939393949" y="175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="150" />
+              <mxPoint x="100" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="seQfly2phUWJJLUAOgSQ-1" value="获取经纬度" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="140" as="sourcePoint" />
             <mxPoint x="85" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-8" value="15-30s" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=0.311;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="173" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-10" value="上报 interval 1m&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="seQfly2phUWJJLUAOgSQ-9">
+          <mxGeometry x="-0.0465" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="230" as="sourcePoint" />
+            <mxPoint x="100" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-12" value="http status 200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="seQfly2phUWJJLUAOgSQ-11">
+          <mxGeometry x="0.0435" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seQfly2phUWJJLUAOgSQ-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;存储前期mysql单表支持1W会员，后期或者infludb。&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;point_meta_yyyymmdd&amp;nbsp;&lt;/div&gt;&lt;div&gt;path_yyyymm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="140" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
